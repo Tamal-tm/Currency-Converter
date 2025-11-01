@@ -8,6 +8,7 @@ a=CurrencyConverter()
 window=tk.Tk()
 window.geometry("500x360")
 
+
 def clicked():
     amount=int(e1.get())
     cur1=e2.get()
@@ -37,4 +38,5 @@ window.mainloop()
 
 
 #a=CurrencyConverter()
+
 #print(a.convert(12,"USD","INR"))
