@@ -16,6 +16,7 @@ def clicked():
     cur2=e3.get()
     data=a.convert(amount,cur1,cur2)
     l5=tk.Label(window,text=data,font="Times 25 bold").place(x=200,y=290)
+    
 
 l1=tk.Label(window,text="Currency Converter", font="Times 25 bold").place(x=100,y=30)
 
@@ -41,4 +42,5 @@ window.mainloop()
 #a=CurrencyConverter()
 
 #print(a.convert(12,"USD","INR"))
+
 
